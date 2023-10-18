@@ -1,10 +1,22 @@
 
 body{
-    background-image: url("head.jpg");
-    background-size: contain;
+    background: linear-gradient(rgb(154, 185, 185), rgb(254, 255, 255));
+   
 }
 
-
+img{
+   width: 400px;
+   height: 400px;
+   object-fit: cover;
+}
+.menu ul li {
+   display: inline-block;
+   padding: 20px;
+}
+.menu ul {
+   width: 100%;
+   background: linear-gradient(rgb(150, 180, 180), rgb(112, 139, 139));;
+}
 * {
     margin: 0;
     padding: 0;
